@@ -1,0 +1,68 @@
+.home{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 70;
+    text-transform: capitalize;
+}
+
+
+@import "../../styles/variables.scss";
+
+
+.home {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(90px, auto);
+  grid-auto-flow: dense;
+
+  // .box {
+  //   width: Fixed (31px6);
+  //   height: Fixed (170px);
+  //   top: 169px;
+  //   left: 1400px;
+  //   padding: auto;
+  //   border-radius: 10px;
+  //   border: 2px solid $soft-bg;
+  //   background-color:#E7EFFF;
+  //   justify: space-between;
+  // }
+    
+  .box{
+    display: flex;
+width: 316px;
+padding: 20px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 11px;
+
+  }
+
+
+  
+
+  .box5 {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  .box6 {
+    grid-row: span 2;
+    grid-column: span 3;
+
+  }
+
+//   .box4 {
+//     grid-column: span 1;
+//     grid-row: span 3;
+//   }
+
+  .box9 {
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+}
+
+
+
+
