@@ -37,7 +37,7 @@ const Home = () => {
           <img src="src\images\Chapter.png" alt="Box 5"></img>
         </div>
         <div className="box box7">
-          <img src="src\images\Group 289227.png" alt="Box 7"></img>
+          <img src="src\images\Monthly.png" alt="Box 7"></img>
         </div>
       </div>
     </>
