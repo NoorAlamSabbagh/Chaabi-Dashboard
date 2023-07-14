@@ -4,8 +4,6 @@ import {
   RouterProvider,
   Outlet
 } from "react-router-dom";
-import Users from "./pages/users/Users";
-import Products from "./pages/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
 import "./styles/global.scss"
@@ -38,14 +36,7 @@ function App() {
           path:"/",
           element: <Home />
         },
-        {
-          path:"/users",
-          element: <Users />
-        },
-        {
-          path:"/products",
-          element: <Products />
-        },
+      ,
       ]
     }
   ]);

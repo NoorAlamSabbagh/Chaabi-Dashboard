@@ -8,6 +8,10 @@ const Navbar = () => {
       <div className='logo'>
         <img src='images\image1.png' alt=''/>
       </div>
+      <div>
+        <h1>Hello, Noor Alam</h1>
+        <p>Following is Your Organization's Performance Summary</p>
+      </div>
       <div className="icons">
         <img src="/search.svg" alt="" className="icon" />
         <img src="/app.svg" alt="" className="icon" />

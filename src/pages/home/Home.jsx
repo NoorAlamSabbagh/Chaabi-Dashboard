@@ -4,10 +4,6 @@ import "./home.scss";
 const Home = () => {
   return (
     <>
-      <div>
-        <h1>Hello, Noor Alam</h1>
-        <p>Following is Your Organization's Performance Summary</p>
-      </div>
       <div className="home">
         <div className="box box1">
           <img src="images\Frame 42.png" alt="Box 1"></img>
